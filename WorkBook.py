@@ -14,7 +14,7 @@ def findmeaning(word):
         closematches = (get_close_matches(word,elements.keys())[0])
         user_decision = input("Are you looking for %s instead?[y/n]" % closematches)
         
-        if user_decision =="y":
+    if user_decision =="y":
             return elements[get_close_matches(word,elements.keys())[0]]
         elif user_decision =="n":
             
